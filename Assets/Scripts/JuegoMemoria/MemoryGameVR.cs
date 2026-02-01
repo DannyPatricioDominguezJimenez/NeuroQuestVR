@@ -243,6 +243,7 @@ public class MemoryGameVR : MonoBehaviour
 
         string url = "http://localhost/neuroquest/api/guardar_sesion.php";
 
+
         SesionData data = new SesionData()
         {
             jugador_id = PlayerManager.instance.jugadorActual.id,
